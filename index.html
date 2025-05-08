@@ -7,8 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="logo">
+        <img src="./Img/Logo.png" alt="Logo do sistema">
+    </div>
 
+    <main>
+        <span>Tamanho <span id="valor"></span>caracteres</span>
+        <input type="range" class="slider" id="slider" min="5" max="25" value="15">
+
+        <button id="button" class="button-cta">Gerar senha</button>
+    </main>
+
+
+    <div id="conatriner-password" class="conatriner-password hider">
+        <span>Sua senha gerada foi</span>
+        <span id="password" class="password">12345678</span>
+        <span>Clique na senha para copiar.</span>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
